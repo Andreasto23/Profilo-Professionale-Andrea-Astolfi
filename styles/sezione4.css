@@ -1,0 +1,15 @@
+.container-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.hard1{
+    width: 350px;
+    padding:20px;
+}
+.img-skill{
+    object-fit: cover;
+    object-position: center;
+}
