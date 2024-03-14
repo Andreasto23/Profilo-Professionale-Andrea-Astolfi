@@ -1,0 +1,38 @@
+.container{
+    height:70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+.menu{
+    width: 70%;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    background-color: lightblue;
+    margin-left:12px;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.insta{
+    background-color: lightblue;
+    margin-left:12px;
+}
+.link{
+    background-color: lightblue;
+    margin-left:12px;
+}
+.github{
+    background-color: lightblue;
+    margin-left:12px;
+    margin-right:12px;
+}
