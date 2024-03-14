@@ -4,6 +4,7 @@
     width: 100%;
     justify-content: center;
     position: fixed;
+    top: 0;
 }
 .menu{
     width: 70%;
@@ -15,7 +16,6 @@
     
 }
 .logo{
-    background-color: lightblue;
     margin-left:12px;
 }
 .social-link{
@@ -24,15 +24,54 @@
     justify-content: space-between;
 }
 .insta{
-    background-color: lightblue;
     margin-left:12px;
 }
 .link{
-    background-color: lightblue;
     margin-left:12px;
 }
 .github{
-    background-color: lightblue;
     margin-left:12px;
     margin-right:12px;
+}
+
+@media only screen and (max-width:500px){
+    .icon-header{
+        width: 35px;
+        border-radius: 50%;
+    }
+    .icon-header1{
+        width: 35px;
+        transition: opacity 0,4s;        
+    }
+    .icon-header2{
+        background-color: white;
+        width: 35px;
+        transition: opacity 0,4s;   
+    }
+
+}
+@media only screen and (min-width:501px){
+    .icon-header{
+        width: 50px;
+        border-radius: 50%;
+    }
+    .icon-header1{
+        width: 50px;
+        transition: opacity 0,4s;
+    }
+    .icon-header2{
+        background-color: white;
+        width: 50px;
+        transition: opacity 0,4s;   
+    }
+
+}
+.icon-header2:hover {
+    cursor: pointer;
+    opacity: 0.7;
+        
+}
+.icon-header1:hover{
+    cursor: pointer;
+    opacity: 0.7;
 }
